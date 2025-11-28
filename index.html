@@ -13,9 +13,8 @@
 
 <body>
     <header>
-        <div>
-            <img src="./images/logo.png" alt="Ray Valley Logo" class="h-10 w-10">
-        </div>
+
+        <img src="./images/logo.png" alt="Ray Valley Logo" class="logo">
         <nav class="nav">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -23,7 +22,19 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
-        <button class="btn-primary"> Login</a></button>
+        <button class="loginbtn"> Login</a></button>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menubtn">≡</label>
+        <div class="sidebar">
+            <label for="menu-toggle" class="closebtn">X</label>
+            <nav class="sidenav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </nav>
+            <a href="#">Login</a>
+        </div>
     </header>
 
     <section class="hero">
@@ -55,7 +66,7 @@
 
     <section>
         <div class="steps-image">
-            <img src="./images/gp5.png" alt="steps" >
+            <img class="steps-image" src="./images/gp5.png" alt="steps">
         </div>
 
         <div class="steps">
@@ -63,27 +74,25 @@
                 <h2>Innoculate</h2>
                 <p>"Sed ut perspiciatis unde<br>
                     omnis iste natus error sit voluptatem<br>
-                    accusantium doloremque </p>
+                    accusantium </p>
             </div>
             <div class="steps-content">
                 <h2>Sow the seeds</h2>
                 <p>"Sed ut perspiciatis unde<br>
                     omnis iste natus error sit voluptatem<br>
-                    accusantium doloremque </p>
+                    accusantium </p>
             </div>
             <div class="steps-content">
                 <h2>Prune your farm</h2>
                 <p>"Sed ut perspiciatis unde<br>
                     omnis iste natus error sit voluptatem<br>
-                    accusantium doloremque </p>
+                    accusantium</p>
             </div>
         </div>
     </section>
 
     <section class="money">
         <img class="mny" src="./images/gp6.png" alt="money">
-
-
         <div class="money-content">
             <h2>Make Your Green</h2>
             <p>"Sed ut perspiciatis unde omnis iste natus error sit<br>
@@ -120,7 +129,7 @@
             <img class="crop-img" src="./images/gp9.png" alt="crop" width="400" , height="400">
         </div>
         <div class="money-content">
-            <h1>Cash Cropping</h1>
+            <h2>Cash Cropping</h2>
             <p>"Sed ut perspiciatis unde omnis iste natus error sit<br>
                 voluptatem accusantium doloremque laudantium,<br>
                 totam rem aperiam, eaque ipsa quae ab illo inventore<br>
@@ -142,9 +151,9 @@
 
             <button class="btn-primary">Join Now</button>
         </div>
-    <div>
-        <img class="fm" src="./images/man.png" alt="">
-    </div>
+        <div>
+            <img class="fm" src="./images/man.png" alt="">
+        </div>
 
     </section>
     <footer>
